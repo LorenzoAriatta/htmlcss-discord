@@ -349,3 +349,14 @@ footer {
     background-color: #7289da;
     color: white;
 }
+
+.social {
+    filter: invert(1);
+    margin-top: 10px;
+}
+
+.social img {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
