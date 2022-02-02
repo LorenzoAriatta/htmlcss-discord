@@ -43,6 +43,10 @@
     float: left;
 }
 
+.float-R {
+    float: right;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -128,4 +132,21 @@ a {
     color: white;
     padding: 10px 20px;
     width: 280px;
+    margin-top: 20px;
+}
+
+/* prima sezione */
+
+.sezione {
+    max-width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.sezione h1 {
+    font-size: 40px;
+}
+
+.sezione p {
+    font-size: 22px;
 }
