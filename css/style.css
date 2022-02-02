@@ -10,12 +10,23 @@
     margin: 0 auto;
 }
 
-header {
+.top-header {
+    height: 80px;
     background-color: #3161e0;
 }
 
-nav {
-    display: inline-block;
+.float {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.top-header img {
+    vertical-align: middle;
 }
 
 li {
@@ -24,8 +35,5 @@ li {
 
 a {
     text-decoration: none;
-}
-
-.top-header li a:hover {
-    text-decoration: underline;
+    color: white;
 }
