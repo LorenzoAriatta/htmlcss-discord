@@ -15,6 +15,10 @@
     transform: translate(-50%, -50%);
 }
 
+article {
+    height: 700px;
+}
+
 .float {
     float: left;
 }
@@ -40,7 +44,7 @@
     width: 80%;
 }
 
-li {
+.top-header li {
     display: inline-block;
     margin: 0 2%;
 }
@@ -121,7 +125,8 @@ a {
 .sezione {
     max-width: 1200px;
     height: 600px;
-    margin: 150px auto 0;
+    margin: 0px auto ;
+    padding-top: 70px;
 }
 
 .sezione h1 {
@@ -145,6 +150,8 @@ a {
 
 .wave img {
    opacity: 0.04;
+   margin-bottom: -5px;
+   width: 100%;
 }
 
 /* seconda sezione */
@@ -152,5 +159,193 @@ a {
 .seconda-sezione {
     max-width: 1200px;
     height: 600px;
-    margin: 150px auto 0;
+    margin: 0px auto;
+    padding-top: 70px;
+}
+
+.bg-gray {
+    background-color: #f6f6f6;
+}
+
+.seconda-sezione h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.seconda-sezione p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.imgs {
+    width: 55%;
+}
+
+.txts {
+    width: 35%;
+}
+
+/* terza sezione */
+
+.terza-sezione {
+    max-width: 1200px;
+    height: 600px;
+    margin: 0px auto;
+    padding-top: 70px;
+}
+
+.terza-sezione h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.terza-sezione p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.wave-white img {
+    margin-bottom: -5px;
+    filter: invert(1);
+    margin-top: -60px;
+}
+
+.imgs {
+    width: 55%;
+}
+
+.txts {
+    width: 35%;
+}
+
+/* quarta sezione */
+
+.quarta-sezione {
+    max-width: 1200px;
+    height: 600px;
+    margin: 0px auto;
+    padding-top: 70px;
+}
+
+.last-article {
+    height: 1000px;
+}
+
+.quarta-sezione h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.quarta-sezione h2 {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.quarta-sezione p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.quarta-sezione .imgs {
+    width: 100%;
+    padding: 0 150px;
+}
+
+.quarta-sezione .txts {
+    width: 100%;
+    text-align: center;
+}
+
+.stars {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.quarta-sezione .button {
+    background-color: #8ea1e1;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 20px;
+    margin: 40px 500px;
+}
+
+.quarta-sezione .button:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+/* footer */
+
+footer {
+    height: 700px;
+    background-color: #23272a;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top-footer {
+    width: 100%;
+    height: 80%;
+    padding-top: 80px;
+    margin-bottom: 100px;
+}
+
+.bot-footer {
+    border-top: 2px solid #7289da;
+    padding-top: 40px;
+}
+
+.contact {
+    width: 25%;
+    float: left;
+    color: #7289da;
+}
+
+.contact img {
+    height: 15px;
+    width: 25px;
+    vertical-align: middle;
+    margin-right: 5px;
+    font-weight: 700;
+}
+
+.product-list, .company-list, .resourse-list, .norm-list {
+    width: 13%;
+    float: left;
+    margin-right: 60px;
+    font-weight: 700;
+}
+
+.ita {
+    margin-top: 15px;
+    color: white;
+}
+
+.top-footer li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.titoletto {
+    color: #7289da;
+}
+
+.logo-footer {
+    float: left;
+}
+
+.button-footer {
+    float: right;
+}
+
+.button-footer a {
+    background-color: #7289da;
+    color: white;
 }
