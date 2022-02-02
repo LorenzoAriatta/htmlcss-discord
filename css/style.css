@@ -65,10 +65,67 @@ li {
     margin: 0 2%;
 }
 
-li:hover {
+li a {
+    color: white;
+}
+
+li a:hover {
     text-decoration: underline;
+    color: red;
 }
 
 a {
     text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.bot-header {
+    height: 600px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.contenuto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bot-header h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.bot-header p {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.large-btn {
+    padding: 10px 20px;
+    width: 180px;
+    font-weight: 600;
+}
+
+.dark-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    width: 280px;
 }
